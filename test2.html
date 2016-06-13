@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>半透明边框</title>
+	<style>
+		body{
+			margin:0px;
+			padding:0px;
+			width:100%;
+			background-image:url(126.jpg);
+			background-repeat:no-repeat;
+			background-position:top center;
+		}
+		#div1{
+			font-size:3em;
+			width:30%;
+			margin:10% auto;
+			text-align:center;
+			background-color:white;
+			border:10px solid hsla(0,0%,100%,.5);
+			background-clip:padding-box;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">这是一个div<div>
+</body>
+</html>
